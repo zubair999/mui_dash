@@ -15,10 +15,7 @@ const AuthFooter = () => {
                 textAlign={matchDownSM ? 'center' : 'inherit'}
             >
                 <Typography variant="subtitle2" color="secondary" component="span">
-                    &copy; Mantis React Dashboard Template By&nbsp;
-                    <Typography component={Link} variant="subtitle2" href="https://codedthemes.com" target="_blank" underline="hover">
-                        CodedThemes
-                    </Typography>
+                    Copyright © 2023  <span>Vishwa Sports Retail Pvt. Ltd.</span> All rights reserve.&nbsp;
                 </Typography>
 
                 <Stack
@@ -26,7 +23,7 @@ const AuthFooter = () => {
                     spacing={matchDownSM ? 1 : 3}
                     textAlign={matchDownSM ? 'center' : 'inherit'}
                 >
-                    <Typography
+                    {/* <Typography
                         variant="subtitle2"
                         color="secondary"
                         component={Link}
@@ -35,7 +32,8 @@ const AuthFooter = () => {
                         underline="hover"
                     >
                         MUI Templates
-                    </Typography>
+                    </Typography> */}
+
                     <Typography
                         variant="subtitle2"
                         color="secondary"
