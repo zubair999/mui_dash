@@ -15,10 +15,8 @@ const Reviews = Loadable(lazy(() => import('pages/dashboard/reviews')));
 const Product = Loadable(lazy(() => import('pages/ecommerce/product')));
 const ProductDetails = Loadable(lazy(() => import('pages/ecommerce/productdetails')));
 const AddNewProduct = Loadable(lazy(() => import('pages/ecommerce/addnewproduct')));
+const Checkout = Loadable(lazy(() => import('pages/ecommerce/checkout')));
 
-
-// render - logout
-const Logout = Loadable(lazy(() => import('pages/logout/logout')));
 // ==============================|| MAIN ROUTING ||============================== //
 
 const MainRoutes = {
@@ -63,10 +61,9 @@ const MainRoutes = {
             element: < AddNewProduct />
         },
         {
-            path: 'logout',
-            element: < Logout/>
-        }
-
+            path: 'checkout',
+            element: < Checkout />
+        },
     ]
 };
 

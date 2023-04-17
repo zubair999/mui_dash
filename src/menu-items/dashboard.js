@@ -99,7 +99,7 @@ const dashboard = {
             id: 'logout',
             title: 'Logout',
             type: 'item',
-            url: '/logout',
+            url: '/',
             icon: icons.LogoutIcon,
             breadcrumbs: false
         }
