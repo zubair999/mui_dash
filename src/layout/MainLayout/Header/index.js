@@ -15,7 +15,7 @@ import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
 
 const Header = ({ open, handleDrawerToggle }) => {
     const theme = useTheme();
-    const matchDownMD = useMediaQuery(theme.breakpoints.down('lg'));
+    const matchDownMD = useMediaQuery(theme.breakpoints.down('md'));
 
     const iconBackColor = 'grey.100';
     const iconBackColorOpen = 'grey.200';
